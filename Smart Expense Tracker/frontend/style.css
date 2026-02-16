@@ -1,0 +1,74 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f6fb;
+}
+
+/* NAVBAR */
+nav{
+background:#111827;
+color:white;
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+/* HERO */
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(120deg,#4f46e5,#06b6d4);
+color:white;
+}
+.hero h1{
+font-size:42px;
+}
+.hero button{
+margin-top:20px;
+padding:12px 30px;
+font-size:18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* FEATURES */
+.features{
+padding:60px 20px;
+text-align:center;
+}
+.feature-box{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:12px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* HOW */
+.how{
+background:#eef2ff;
+padding:60px 20px;
+text-align:center;
+}
+
+/* FOOTER */
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+}
