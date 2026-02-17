@@ -16,7 +16,7 @@ nav{
 /* CARD */
 .container{
     width:350px;
-    margin:50px auto;
+    margin:40px auto;
     background:white;
     padding:25px;
     border-radius:12px;
@@ -90,3 +90,14 @@ li{
 .Bills{ background:#f97316; }
 .Other{ background:#6b7280; }
 
+
+/* CHART BOX */
+.chart-box{
+    width:400px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    text-align:center;
+}
