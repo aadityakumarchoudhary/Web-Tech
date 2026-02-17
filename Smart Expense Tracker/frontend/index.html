@@ -3,41 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <title>Smart Expense Tracker</title>
-
-<!-- CSS Link -->
 <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
 
-<!-- NAVBAR -->
 <nav>
-  <h2>Smart Expense Tracker</h2>
+  Smart Expense Tracker
 </nav>
 
-
-<!-- MAIN CONTAINER -->
 <section class="container">
 
   <h1>Add Expense</h1>
 
-  <!-- INPUT FIELDS -->
   <input type="text" id="title" placeholder="Expense name">
   <input type="number" id="amount" placeholder="Amount">
 
-  <!-- BUTTON -->
+  <select id="category">
+    <option value="Food">Food</option>
+    <option value="Travel">Travel</option>
+    <option value="Shopping">Shopping</option>
+    <option value="Bills">Bills</option>
+    <option value="Other">Other</option>
+  </select>
+
   <button onclick="addExpense()">Add Expense</button>
 
-  <!-- TOTAL -->
   <h2>Total: ₹ <span id="total">0</span></h2>
 
-  <!-- LIST -->
   <ul id="list"></ul>
 
 </section>
 
-
-<!-- JS FILE -->
 <script src="script.js"></script>
 
 </body>

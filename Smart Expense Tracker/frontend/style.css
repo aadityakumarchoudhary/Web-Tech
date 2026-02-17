@@ -8,24 +8,24 @@ body{
 nav{
     background:#111827;
     color:white;
-    padding:15px 40px;
-    font-size:20px;
+    padding:18px 40px;
+    font-size:22px;
     font-weight:bold;
 }
 
-/* MAIN BOX */
+/* CARD */
 .container{
     width:350px;
-    margin:40px auto;
+    margin:50px auto;
     background:white;
     padding:25px;
-    border-radius:10px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
     text-align:center;
 }
 
-/* INPUTS */
-input{
+/* INPUT */
+input, select{
     width:90%;
     padding:10px;
     margin:10px 0;
@@ -62,9 +62,10 @@ li{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    font-size:14px;
 }
 
-/* DELETE BTN */
+/* DELETE */
 .delete{
     background:red;
     border:none;
@@ -73,4 +74,19 @@ li{
     border-radius:5px;
     cursor:pointer;
 }
+
+/* CATEGORY TAG */
+.tag{
+    padding:4px 8px;
+    border-radius:5px;
+    font-size:11px;
+    color:white;
+    margin-left:8px;
+}
+
+.Food{ background:#22c55e; }
+.Travel{ background:#3b82f6; }
+.Shopping{ background:#a855f7; }
+.Bills{ background:#f97316; }
+.Other{ background:#6b7280; }
 
