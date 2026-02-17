@@ -3,59 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <title>Smart Expense Tracker</title>
+
+<!-- CSS Link -->
 <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
+<!-- NAVBAR -->
 <nav>
-<h2>ExpenseTracker</h2>
-<div>
-<a href="#">Features</a>
-<a href="#">How It Works</a>
-<a href="#">Login</a>
-</div>
+  <h2>Smart Expense Tracker</h2>
 </nav>
 
-<section class="hero">
-<h1>Track Your Spending Smartly</h1>
-<p>Manage expenses, set budgets, and stay financially stress-free.</p>
-<button onclick="startApp()">Get Started</button>
+
+<!-- MAIN CONTAINER -->
+<section class="container">
+
+  <h1>Add Expense</h1>
+
+  <!-- INPUT FIELDS -->
+  <input type="text" id="title" placeholder="Expense name">
+  <input type="number" id="amount" placeholder="Amount">
+
+  <!-- BUTTON -->
+  <button onclick="addExpense()">Add Expense</button>
+
+  <!-- TOTAL -->
+  <h2>Total: ₹ <span id="total">0</span></h2>
+
+  <!-- LIST -->
+  <ul id="list"></ul>
+
 </section>
 
-<section class="features">
-<h2>Features</h2>
 
-<div class="feature-box">
-
-<div class="card">
-<h3>Easy Tracking</h3>
-<p>Add and manage expenses instantly.</p>
-</div>
-
-<div class="card">
-<h3>Budget Alerts</h3>
-<p>Get notified when you exceed limits.</p>
-</div>
-
-<div class="card">
-<h3>Analytics</h3>
-<p>Visual charts for better insights.</p>
-</div>
-
-</div>
-</section>
-
-<section class="how">
-<h2>How It Works</h2>
-<p>1️⃣ Add expenses</p>
-<p>2️⃣ Set budget</p>
-<p>3️⃣ Track reports</p>
-</section>
-
-<footer>
-<p>© 2026 Smart Expense Tracker Project</p>
-</footer>
-
+<!-- JS FILE -->
 <script src="script.js"></script>
+
 </body>
 </html>
